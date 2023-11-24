@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    
+}
+.top {
+    display: flex;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(10, 12, 92);
+    flex-direction: column;
+    padding: 10px;
+    min-height: 100%;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 0px 12px 0px rgba(64, 47, 47,1);
+}
+.navbar {
+    border: 2px solid rgb(57 16 227);
+    border-radius: 10px;
+    background-color: rgb(4 4 44);
+    color: white;
+    box-shadow: 0px 0px 16px -1px white;
+    min-height: 2.3rem;
+    padding-top:15px ;
+
+}
+.crud{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.lists a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #efefef;
+
+
+}
+.lists a:hover{
+    color: red;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: darkblue;
+    text-decoration: underline;
+
+}
+.sub-mid{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    height: 350px;
+}
+.box{
+    background-color: #a6bddc; 
+    min-height: 100%;
+}
+.bottom{
+    background-color: #132c69;
+    height: 50px;
+
+}
+p{
+    color: white;
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    color:coral
+}
+p a:hover{
+    color:red;;
+}
+.sub-mid img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px rgba(64, 47, 47,1);
+
+}
+
+.mid-add div{
+    display: flex;
+    justify-content: center;
+}
+legend{
+    font-size: 20px;
+
+}
+form div input{
+    padding-left: 4px;
+}
+
+
+
+
+.form-box{
+    display:block;
+    width: 300px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height:300px ;
+
+}
+.mid-add{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 400px;
+
+}
+.head{
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-left: 15px;
+    outline: none;
+}
+
+fieldset{
+    border: 1.5px solid blue;
+    border-radius: 3px;
+    
+}
+.mid-view div{
+    margin-top: 20px;
+}
+.mid-view{
+    min-height: 200px;
+}
+
+#stud {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#stud td, #stud th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#stud tr:nth-child(even){background-color: #f2f2f2;}
+
+#stud tr:hover {background-color: #ddd;}
+
+#stud th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
